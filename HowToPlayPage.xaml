@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kreciki.HowToPlayPage"
+             BackgroundImageSource="howto.png">
+    <VerticalStackLayout>
+        <Label 
+            Text="To jest bardzo proste!"
+            HorizontalOptions="Center" 
+            FontSize="20"
+            Margin="0, 120"
+            TextColor="#5d2323"/>
+        <Label Text="Uderzaj kreciki!" TextColor="#5d2323" HorizontalOptions="Center" FontSize="20" Margin="0, 250,0,0"/>
+        <Label Text="Tylko uważaj, 3 razy nietrafiony kret to przegrana!" TextColor="#5d2323" HorizontalOptions="Center" FontSize="20" Margin="0, 0,0,0"/>
+        <Label Text="Zabawa trwa bez końca, chyba, że 3 razy skusisz, wtedy zostaje przerwana." TextColor="#5d2323" HorizontalOptions="Center" FontSize="20" Margin="0, 0,0,20"/>
+        <Button x:Name="goBack" Text="Powrót" Clicked="goBack_Clicked" BackgroundColor="#5d2323" TextColor="White" WidthRequest="150"/>
+    </VerticalStackLayout>
+</ContentPage>

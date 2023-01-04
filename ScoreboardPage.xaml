@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kreciki.ScoreboardPage"
+             Title="Tabela wyników">
+    <VerticalStackLayout>
+        <Label x:Name="scoreboard" Text="Strona w budowie! Przepraszamy :("/>
+        <Button x:Name="goBack" Text="Powrót" Clicked="goBack_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

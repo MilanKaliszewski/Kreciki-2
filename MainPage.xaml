@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kreciki.MainPage"
+             BackgroundImageSource="welcome.png">
+    <VerticalStackLayout>
+        <Label Text="Bij krety i zdobywaj punkty!" HorizontalTextAlignment="Center" Margin="0, 120, 0, 360" TextColor="#5d2323" FontSize="20" FontAttributes="Bold"/>
+        <Label Text="Co robimy?" HorizontalTextAlignment="Center" Margin="0, 0" TextColor="#5d2323" FontSize="20" FontAttributes="Bold"/>
+        <Button x:Name="startGame" Text="Nowa gra!" Clicked="startGame_Clicked" WidthRequest="150" BackgroundColor="#5d2323" TextColor="White"/>
+        <Button x:Name="scoreboard" Text="Tablica wyników!" Clicked="scoreboard_Clicked" WidthRequest="150" BackgroundColor="#5d2323" TextColor="White"/>
+        <Button x:Name="howtoplay" Text="Jak grać?" Clicked="howtoplay_Clicked" WidthRequest="150" BackgroundColor="#5d2323" TextColor="White"/>
+        <Button x:Name="exit" Text="Wyjście :(" Clicked="exit_Clicked" WidthRequest="150" BackgroundColor="#5d2323" TextColor="White"/>
+    </VerticalStackLayout>
+    
+
+</ContentPage>

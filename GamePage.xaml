@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kreciki.GamePage"
+             BackgroundColor="#B37A35">
+
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="0" Grid.Row="0" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="1" Grid.Row="0" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="2" Grid.Row="0" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="3" Grid.Row="0" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="4" Grid.Row="0" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="5" Grid.Row="0" Clicked="minus" BackgroundColor="Transparent"/>
+
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="0" Grid.Row="1" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="1" Grid.Row="1" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="2" Grid.Row="1" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="3" Grid.Row="1" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="4" Grid.Row="1" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="5" Grid.Row="1" Clicked="minus" BackgroundColor="Transparent"/>
+
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="0" Grid.Row="2" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="1" Grid.Row="2" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="2" Grid.Row="2" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="3" Grid.Row="2" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="4" Grid.Row="2" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="5" Grid.Row="2" Clicked="minus" BackgroundColor="Transparent"/>
+
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="0" Grid.Row="3" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="1" Grid.Row="3" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="2" Grid.Row="3" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="3" Grid.Row="3" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="4" Grid.Row="3" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="5" Grid.Row="3" Clicked="minus" BackgroundColor="Transparent"/>
+
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="0" Grid.Row="4" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="1" Grid.Row="4" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="2" Grid.Row="4" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="3" Grid.Row="4" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="4" Grid.Row="4" Clicked="minus" BackgroundColor="Transparent"/>
+        <ImageButton Source="./Resources/Images/dziura.png" Grid.Column="5" Grid.Row="4" Clicked="minus" BackgroundColor="Transparent"/>
+        <HorizontalStackLayout Grid.Column="0" Grid.Row="0" Margin="5">
+            <Label x:Name="licznik" Text="Aktualny wynik: 0" FontSize="18"/>
+            <Label x:Name="licznikCzas" Text="Aktualny czas: 0:0:0" FontSize="18" Margin="20, 0"/>
+        </HorizontalStackLayout>
+
+
+
+
+    </Grid>
+
+</ContentPage>
